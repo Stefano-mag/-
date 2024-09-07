@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Магазин за промоции</title>
+    <title>Продукти с намалени цени в магазин "Стефано"</title>
 </head>
 <body>
     <h1>Качете промоционален продукт</h1>
