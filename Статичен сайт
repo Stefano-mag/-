@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин за промоции</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .product { border: 1px solid #ccc; padding: 10px; margin: 10px 0; }
+        .product img { max-width: 200px; }
+    </style>
+</head>
+<body>
+    <h1>Добре дошли в нашия магазин!</h1>
+    <p>Тук ще намерите най-новите промоционални продукти.</p>
+
+    <!-- Пример на статична секция с продукти -->
+    <div class="product">
+        <h2>Продукт 1</h2>
+        <img src="images/product1.jpg" alt="Продукт 1">
+        <p>Описание на промоционалния продукт 1.</p>
+    </div>
+
+    <div class="product">
+        <h2>Продукт 2</h2>
+        <img src="images/product2.jpg" alt="Продукт 2">
+        <p>Описание на промоционалния продукт 2.</p>
+    </div>
+
+    <!-- Форма за абонамент за нотификации (първоначално статична, по-късно може да се направи динамична) -->
+    <form id="subscribeForm">
+        <label for="email">Абонирайте се за известия:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit">Абонирай се</button>
+    </form>
+
+    <script>
+        document.getElementById('subscribeForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Абонаментът ви е записан! Ще получите известие при нови промоции.');
+            // Тук може да се добави логика за записване на имейла
+        });
+    </script>
+</body>
+</html>
