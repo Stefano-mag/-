@@ -6,7 +6,7 @@
     <title>Продукти с намалени цени в магазин "Стефано"</title>
 </head>
 <body>
-    <h1>Качете промоционален продукт</h1>
+    <h1>Актуалну оферти</h1>
     <form action="upload.php" method="post" enctype="multipart/form-data">
         <label for="productImage">Качете снимка на продукта:</label>
         <input type="file" name="productImage" id="productImage" required>
